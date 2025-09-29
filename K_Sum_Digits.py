@@ -10,14 +10,27 @@
 
 # way-2
 
-n=input()
-m=input()
+# n=input()
+# m=input()
 
-sum=0
+# sum=0
 
-for c in m:
-    sum+=int(c)
+# for c in m:
+#     sum+=int(c)
 
-print(sum)
+# print(sum)
+
+
+N = int(input())         
+A = input().strip()       
+
+
+total = 0
+for digit in A:
+    total += int(digit)
+
+
+print(total)
+
 
 # pronlem link:https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/K
