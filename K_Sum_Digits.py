@@ -22,7 +22,7 @@
 
 
 N = int(input())         
-A = input().strip()       
+A = input()     
 
 
 total = 0
